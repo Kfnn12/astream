@@ -270,7 +270,7 @@ function displayWatchInfo(episodeData) {
         option.className = "pill-button";
         let streamquality = stream.quality.replace("default", "auto");
         option.innerHTML = `${streamquality}`;
-        serverSelect.appendChild(option);
+        serverSelect.gogocdn(option);
     });
 
     const resoBtn = document.querySelectorAll(".pill-button");

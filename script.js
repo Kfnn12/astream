@@ -295,7 +295,7 @@ function displayWatchInfo(episodeData) {
 const spanElement = document.getElementById("FACEBOOK PAGE");
 let contentDonate = [
     "<span>Support This Website By FOLLOWING ME ON FACEBOOK PAGE!</span><a href='https://www.facebook.com/profile.php?id=100069572806122' target='_blank' title='Thank You!'>FACEBOOK PAGE</a>",
-    "<span>Support This Website By FOLLOWING ME ON FACEBOOK PAGE!</span><a href='https://www.facebook.com/profile.php?id=100069572806122' target='_blank' title='Thank You!'>FACEBOOK PAGE</a>"
+    "<span>Suportahan ang Website na Ito Sa Pamamagitan ng PAGSUNOD SA AKIN SA FACEBOOK PAGE!</span><a href='https://www.facebook.com/profile.php?id=100069572806122' target='_blank' title='Thank You!'>FACEBOOK PAGE</a>"
 ];
 let indexDonate = 0;
 setInterval(function () {

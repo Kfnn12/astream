@@ -55,7 +55,7 @@ searchBtn.addEventListener("click", async function () {
     sresultContainer.style.display = `flex`;
     resultContainer.style.display = `grid`;
     mainLoading.style.display = "flex";
-    pageTitle.innerHTML = `astream - watch anime`
+    pageTitle.innerHTML = `Animxer - watch anime`
     recentBtn.style.display = "none";
     resultContainer.innerHTML = "";
 
@@ -74,7 +74,7 @@ async function getSearchByEnter(event) {
         sresultContainer.style.display = `flex`;
         resultContainer.style.display = `grid`;
         mainLoading.style.display = "flex";
-        pageTitle.innerHTML = `astream - watch anime`
+        pageTitle.innerHTML = `Animxer - watch anime`
         recentBtn.style.display = "none";
         resultContainer.innerHTML = "";
 
@@ -211,7 +211,7 @@ function displayAnimeInfo(data) {
     const title = document.getElementById("videoTitle");
     title.innerHTML = `${data.title}`;
     dataTitle = `${data.title}`;
-    pageTitle.innerHTML = `${data.title.toLowerCase()} - astream`
+    pageTitle.innerHTML = `${data.title.toLowerCase()} - Animxer`
 
     const status = document.getElementById("status");
     status.innerHTML = `${data.status}`;

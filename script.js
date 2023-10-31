@@ -20,10 +20,15 @@ const apiEndpoint = "api.consumet.org";
 
 // Randomly set player iframes to these video onLoad
 var youtubeLinks = [
-    "https://www.youtube-nocookie.com/embed/9vIxi5XkQ8Y",
-    "https://www.youtube-nocookie.com/embed/45lyCUdzRx4",
-    "https://www.youtube-nocookie.com/embed/c-yZsNd__0E",
-    "https://www.youtube-nocookie.com/embed/5pTcio2hTSw"
+    "https://www.youtube.com/embed/3yOVIxOHiaw",
+    "https://www.youtube.com/embed/nfAPAvGGH4g",
+    "https://www.youtube.com/embed/S7W135mNveI",
+    "https://www.youtube.com/embed/X1M69l7ZGlw",
+    "https://www.youtube.com/embed/IUtFAblCT1o",
+    "https://www.youtube.com/embed/Wi6tTATXnaw",
+    "https://www.youtube.com/embed/5xkzzO5nNow",
+    "https://www.youtube.com/embed/PgAswqBtrUk",
+    "https://www.youtube.com/embed/uwwU55zBYlQ"
 ];
 var randomLink = youtubeLinks[Math.floor(Math.random() * youtubeLinks.length)];
 videoPlayer.src = randomLink;
@@ -50,7 +55,7 @@ searchBtn.addEventListener("click", async function () {
     sresultContainer.style.display = `flex`;
     resultContainer.style.display = `grid`;
     mainLoading.style.display = "flex";
-    pageTitle.innerHTML = `Animxer - watch anime`
+    pageTitle.innerHTML = `astream - watch anime`
     recentBtn.style.display = "none";
     resultContainer.innerHTML = "";
 
@@ -69,7 +74,7 @@ async function getSearchByEnter(event) {
         sresultContainer.style.display = `flex`;
         resultContainer.style.display = `grid`;
         mainLoading.style.display = "flex";
-        pageTitle.innerHTML = `Animxer - watch anime`
+        pageTitle.innerHTML = `astream - watch anime`
         recentBtn.style.display = "none";
         resultContainer.innerHTML = "";
 
@@ -206,7 +211,7 @@ function displayAnimeInfo(data) {
     const title = document.getElementById("videoTitle");
     title.innerHTML = `${data.title}`;
     dataTitle = `${data.title}`;
-    pageTitle.innerHTML = `${data.title.toLowerCase()} - Animxer`
+    pageTitle.innerHTML = `${data.title.toLowerCase()} - astream`
 
     const status = document.getElementById("status");
     status.innerHTML = `${data.status}`;
@@ -272,7 +277,7 @@ function displayWatchInfo(episodeData) {
     for (let i = 0; i < resoBtn.length; i++) {
         resoBtn[i].addEventListener("click", function () {
             const serverUrl = this.value;
-            let proxyweb = 'https://cute-cyan-millipede-coat.cyclic.app/'
+            let proxyweb = 'https://Unblock gogoanimes.co'
             // let selectedServer = serverUrl.replace('https://', '');
             // selectedServer = selectedServer.replace('http://', '');
             let selectedServer = serverUrl;
@@ -287,10 +292,10 @@ function displayWatchInfo(episodeData) {
 }
 
 // Donate Alert
-const spanElement = document.getElementById("spanDonate");
+const spanElement = document.getElementById("FACEBOOK PAGE");
 let contentDonate = [
-    "<span>Support this website by making a donation starting from 1$!</span><a href='#' target='_blank' title='Thank you!'>DONATE</a>",
-    "<span>Dukung website ini dengan cara berdonasi mulai dari Rp1000!</span><a href='#' target='_blank' title='Thank you!'>DONASI</a>"
+    "<span>Support This Website By FOLLOWING ME ON</span><a href='https://www.facebook.com/profile.php?id=100069572806122' target='_blank' title='Thank You!'>FACEBOOK PAGE</a>",
+    "<span>Suportahan ang Website na Ito Sa Pamamagitan ng PAGSUNOD SA AKIN SA</span><a href='https://www.facebook.com/profile.php?id=100069572806122' target='_blank' title='Thank You!'>FACEBOOK PAGE</a>"
 ];
 let indexDonate = 0;
 setInterval(function () {

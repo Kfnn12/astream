@@ -16,7 +16,7 @@ var dataTitle;
 var dataEpisode;
 var dataURL;
 
-const apiEndpoint = "https://api.consumet.org";
+const apiEndpoint = "https://animxer-api-nxqu.vercel.app";
 
 // Randomly set player iframes to these video onLoad
 var youtubeLinks = [

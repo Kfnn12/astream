@@ -277,7 +277,7 @@ function displayWatchInfo(episodeData) {
     for (let i = 0; i < resoBtn.length; i++) {
         resoBtn[i].addEventListener("click", function () {
             const serverUrl = this.value;
-            let proxyweb = 'https://Unblock gogoanimes.co'
+            let proxyweb = 'https://cute-cyan-millipede-coat.cyclic.app/'
             // let selectedServer = serverUrl.replace('https://', '');
             // selectedServer = selectedServer.replace('http://', '');
             let selectedServer = serverUrl;

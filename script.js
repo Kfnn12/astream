@@ -16,7 +16,7 @@ var dataTitle;
 var dataEpisode;
 var dataURL;
 
-const apiEndpoint = "api.consumet.org";
+const apiEndpoint = "https://webdis-220o.onrender.com";
 
 // Randomly set player iframes to these video onLoad
 var youtubeLinks = [

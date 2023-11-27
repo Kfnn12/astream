@@ -16,7 +16,7 @@ var dataTitle;
 var dataEpisode;
 var dataURL;
 
-const apiEndpoint = "animxer-api-nxqu.vercel.app";
+const apiEndpoint = "https://api.amvstr.me";
 
 // Randomly set player iframes to these video onLoad
 var youtubeLinks = [

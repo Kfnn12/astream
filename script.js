@@ -16,7 +16,7 @@ var dataTitle;
 var dataEpisode;
 var dataURL;
 
-const apiEndpoint = "api.amvstr.me";
+const apiEndpoint = "webdis-ukkz.onrender.com";
 
 // Randomly set player iframes to these video onLoad
 var youtubeLinks = [

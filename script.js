@@ -16,7 +16,7 @@ var dataTitle;
 var dataEpisode;
 var dataURL;
 
-const apiEndpoint = "https://api.amvstr.me";
+const apiEndpoint = "api.amvstr.me";
 
 // Randomly set player iframes to these video onLoad
 var youtubeLinks = [

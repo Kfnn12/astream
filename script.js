@@ -16,7 +16,7 @@ var dataTitle;
 var dataEpisode;
 var dataURL;
 
-const apiEndpoint = "animxer-api-cvxg.vercel.app";
+const apiEndpoint = "animxer-api-bids.vercel.app";
 
 // Randomly set player iframes to these video onLoad
 var youtubeLinks = [
